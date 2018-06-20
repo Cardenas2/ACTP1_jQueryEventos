@@ -64,9 +64,14 @@
 		</ul>
 	</nav>
 	<script>
+
+		var link6=$("li:eq(5)");
+		
 		$('li:eq(3)')
 		.append('<ul><li><a href="#">link 4.a</a></li></ul>')
 		.before('<li><a href="#">link 3.5</a></li>');
+
+		link6.prepend('=D');
 	</script>	
 </body>
 </html>
